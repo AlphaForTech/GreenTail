@@ -19,11 +19,11 @@ body{
 }
 .searh_bar input[type=text] {
   padding: 12px;
-  margin-top: 11px;
+  margin-top: 12px;
   font-size: 17px;
   border: 1px solid grey;
   float: left;
-  margin-left: 704px;
+  margin-left: 600px;
   width: 30%;
   background: #f1f1f1;
   border-radius: 1px/1px;
@@ -32,9 +32,9 @@ body{
 .Header button {
   float: right;
   
-  margin-right: 170px;
+  margin-right: 263px;
   width: 4%;
-  margin-top: 11px;
+  margin-top: 12px;
   padding: 12px;
   background: #f1f1f1;
   color: green;
@@ -52,18 +52,16 @@ body{
 }
 .Header a{
     float: right;
-    margin-right: -100px;
+    margin-right: -110px;
     padding: 15px 0px;
     background-color: green;
     cursor: pointer;
     color: white;
-    size: 5px;
-    margin-top: 8px;
+    font-size: 50px;
+    margin-top: 12px;
     border: none;
     text-align: center;
     transition: all 0.3s ease;
-    color: white;
-    font-size: 25px;
 }
 /* ------ navbar -------- */
 .grocery_drop{
@@ -151,6 +149,12 @@ body{
   }
 }
 
+.searh_bar a{
+    size: 20px;
+}
+.signup_login_area{
+    float: right;
+}
 
 
 .navbar {
@@ -207,10 +211,112 @@ body{
   }
 }
 
+
+/* Navbar links */
+.Header a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.Header a:hover {
+  background-color: green;
+  color: white;
+  padding: 12px 16px;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .Header a {
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.Header.responsive {position: relative;}
+   .Header .responsive {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .Header.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .Header.responsive .grocery_drop {float: none;}
+  .Header.responsive .dropdown-content {position: relative;}
+  .Header.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
 /* ------Categories container */
 .Categories_container{
-    height: 150px;
+    height: 350px;
+    margin-top: 5px;
     width: 100%;
     color: black;
     background-color: white;
+}
+.pic{
+    height: 350px;
+    width: 100%;
+}
+.left_container{
+    float: left;
+    height: 800px;
+    width: 25%;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.product_section{
+    float: right;
+    height: 800px;
+    width: 70.3%;
+    margin-right: 30px;
+    background-color: white;
+    color: black;
+    margin-top: 5px;
+}
+.footer_section{
+    float: none;
+    height: 300px;
+    width: 100%;
+    background-color:  #272727;
+    color: black;
+    margin-top: 808px;   
+}
+.footer_left_container{
+    float: left;
+    width: 25%;
+    color: white;
+    margin-left: 10%;
+    margin-top: 20px;
+        
+}
+.footer_right_container{
+    float: right;
+    margin-right: 20px;
+    width: 25%;
+    color: white;
+    margin-top: 20px;
+    
+}
+.footer_center_container{
+    margin-top: 20px;
+    float: left;
+    width: 25%;
+    color: white;
+    margin-left: 10%;
 }
