@@ -1,0 +1,79 @@
+
+body{
+    
+    
+}
+.gradient_color{
+    background-image: linear-gradient(90deg,   #0b11d9,#1fd838 );
+}
+.forgot_btn{
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+.forgot_btn1 {
+        text-decoration: none;
+    font-size: 13px;
+    margin-left: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.login_container p{
+    ext-decoration: none;
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+.login_container{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    color: black;
+    border-radius: 10px/10px;
+    float: none;
+    margin-left: 500px;
+    margin-top: 110px;
+}
+.login_container input[type=text]{
+    padding: 14px;
+    width: 70%;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 110px;
+    font-size: 15px;
+}
+.login_container input[type=password]{
+    padding: 14px;
+    width: 70%;
+    margin-left: 40px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.login_container .input_style:hover{
+    border-bottom: 2px solid green;
+     border-left: 2px solid green;
+      border-right: 2px solid green;
+       border-top: 2px solid green;
+     
+}
+.login_container .login_btn{
+    padding: 14px;
+    width: 79%;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 15px;  
+    cursor: pointer;
+    border: none;
+    size: 15px;
+    background-color:  #c5c5ca;
+}
+
+.login_container .login_btn:hover{
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    color: white;
+    
+}
